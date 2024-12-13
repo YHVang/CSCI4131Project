@@ -1,0 +1,39 @@
+doctype html 
+html(lang='en')
+    head 
+        title To-Do List 
+        link(rel='stylesheet', href='/css/main.css')
+        script(defer='' src='/js/main.js')
+    body 
+        div(class="topnav")
+            a(class="active", href="/main.pug") My To-Dos
+            a(href="/myTodo.pug") Finished To-tos
+            a(href="/category.pug") Maybe logout?
+            input(class="search",type="text", placeholder="Search Category")
+        h1 Welcome to your To-Do List 
+        div(class="container")
+            div(class="row")
+                div(class="column")
+                    table(class="table") 
+                        tr 
+                            th To-Dos here
+                        tr
+                            td Stuff for todos
+                            td
+                                button Finished
+                        tr
+                            td data will continue from here
+                            td
+                                button Finsihed
+                div(class="column")
+                    table(class="table") 
+                        tr 
+                            th Finshed To-Dos here
+                        tr
+                            td Finshed Stuff for todos
+                            td
+                                button Delete
+                        tr
+                            td data will continue from here
+                            td
+                                button Delete

@@ -1,0 +1,11 @@
+## Switch to ubuntu terminal
+terminal: ubuntu
+## ssh connect to CSE computer
+ubuntu prompt: ssh vang3827@csel-kh1250-07.cselabs.umn.edu
+
+## Connect to mysql database server.
+ubuntu prompt: mysql -u C4131F24U118 C4131F24U118 -p -h cse-mysql-classes-01.cse.umn.edu
+Password: 13974
+
+## How prof loggin with a single prompt
+ssh vang3827@csel-kh1250-07.cselabs.umn.edu -L 3306:cse-mysql-classes-01.cse.umn.edu:3306

@@ -1,0 +1,24 @@
+doctype html 
+html(lang='en')
+    head 
+        title To-Do List 
+        link(rel='stylesheet', href='/css/main.css')
+        script(defer='' src='/js/main.js')
+    body 
+        div(class="topnav")
+            a(class="active", href="/main.pug") My To-Dos
+            a(href="/myTodo.pug") Finished To-tos
+            a(href="/category.pug") Maybe logout?
+            input(type="text" placeholder="Search Category")
+        h1 Welcome to your To-Do List 
+        h1 To-Do with Description 
+        div(class="container")
+            div(class="row")
+                div(class="column")
+                    h1 To-do title here
+                div(class="column")
+                    h1 to-do description here?
+        div(class="todoContainer")
+            h1 or maybe hust a single column.
+            h1 To-do title here 
+            h1 description goes under here

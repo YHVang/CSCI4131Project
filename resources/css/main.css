@@ -1,0 +1,74 @@
+/* Main body */
+/* body{
+    background-image: url("/pexels-photo-1242348.webp");
+} */
+/* nav bar */
+.topnav {
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav input{
+    float:right;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* body */
+h1 {
+    color: darkcyan;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+/* column div */
+.column {
+    flex: 50%;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 25px;
+    border: 3px solid darkred;
+    width: 80%;
+}
+/* table */
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* To-Do container */
+.todoContainer{
+    border-style: ridge;
+    border-radius: 25px;
+    border: 3px solid darkred;
+    width: 80%;
+    margin: auto;
+}
