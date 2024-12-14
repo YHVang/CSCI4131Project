@@ -1,10 +1,11 @@
 /* Main body */
-/* body{
-    background-image: url("/pexels-photo-1242348.webp");
-} */
+body {
+    background-image: url("/images/abstract-digital-grid-black-background.jpg");
+}
+
 /* nav bar */
 .topnav {
-    background-color: lightblue;
+    background-color: darkcyan;
     overflow: hidden;
 }
 
@@ -26,14 +27,84 @@
     background-color: #04AA6D;
     color: white;
 }
-.topnav input{
+
+/* .topnav input{
     float:right;
     color: darkcyan;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
     font-size: 14px;
+} */
+
+/*  */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
 }
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*  */
+
+.logout {
+    float: right;
+}
+
 /* body */
 h1 {
     color: darkcyan;
@@ -43,8 +114,10 @@ h1 {
 .row {
     display: flex;
 }
+
 /* column div */
 .column {
+    color: rgb(5, 182, 182);
     flex: 50%;
     text-align: center;
     border-style: ridge;
@@ -52,6 +125,7 @@ h1 {
     border: 3px solid darkred;
     width: 80%;
 }
+
 /* table */
 table,
 th,
@@ -64,8 +138,9 @@ td {
     margin-right: auto;
     width: 50%;
 }
+
 /* To-Do container */
-.todoContainer{
+.todoContainer {
     border-style: ridge;
     border-radius: 25px;
     border: 3px solid darkred;
